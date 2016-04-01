@@ -37,9 +37,11 @@
              <!--Import Google Icon Font-->
             <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
        
-        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+             <link rel="icon" type="image/x-icon" href="favicon.ico" />
              <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
              <script type="text/javascript" src="js/materialize.min.js"></script>
+             <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+             <script src="js/app.js"></script>
 
 
       <nav>
@@ -66,7 +68,7 @@
     </nav>
               
     </head>
-    <body>
+    <body ng-controller="homeController">
       <div class="container-fluid" style="margin-top:4px;">
   <div class="slider">
     <ul class="slides">
@@ -204,15 +206,16 @@
         <h2>Nuevos autos</h2> 
                       
         <!--<img src="http://www.yonkethecardepot.com/" width="64" height="64"  alt = "" /> -->
-        <div ng-repeat>
-        <img src="http://www.yonkethecardepot.com/autos/IMG_20140616_100402.jpg"  alt="Acura">
+        <div ng-repeat="auto in nuevosautos">
+        <img ng-src="http://www.yonkethecardepot.com/{{ auto.foto }}"  width="64" height="64" ng-alt="{{ auto.marca}}">
         <p>  
         <a href="" > 
-        <h6>{{ row.marca }} {{ row.modelo }} </h6>   
+        <h6>{{ auto.marca }} {{ auto.modelo }} </h6>   
         </a>
-        Motor:  <br>
-        Transmisión:  
+        Motor: {{ auto.motor }}  <br>
+        Transmisión:  {{auto.transmision}}
         </p>
+
         </div>
 
         <a class="waves-effect waves-light btn" href="inventario">Ver más</a>
@@ -234,11 +237,8 @@
 
       <div class="col s12  l4" id="visitas">
         <h2> Visitas </h2>
-        {% for row in visitas %}
-         
-          <{{ row }}>
-         
-        {% endfor %}
+        {{ visitas }}
+
       </div>
     </div>
   </div>  
