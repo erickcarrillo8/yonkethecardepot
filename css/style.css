@@ -9,7 +9,7 @@ nav
 nav a
 {
 	color:  black !important;
-	
+
 }
 
 nav li
@@ -27,7 +27,7 @@ footer
  li img
 {
    max-width: 1400px;
-   
+
    height: auto;
 }
 
@@ -50,14 +50,18 @@ h4
 
 .slides img
 {
-	width: 100%;
-	max-width: 1500px;
+   max-width: 100%;
+}
+
+.slides li
+{
+	max-width: 100%;
 }
 
 #nuevoautos img
 {
 	float: left;
-	margin-right: 5%; 
+	margin-right: 5%;
 }
 
 #nuevoautos a
@@ -86,8 +90,8 @@ h4
 	width: 100%;
 	padding: 18px;
 	float: left;
-	
-	
+
+
 }
 
 #main1 img, h3
@@ -98,13 +102,13 @@ h4
 #main1 h3
 {
 	color: white;
-	
+
 }
 
 
 #menu2 img
 {
-	width:140px; 
+	width:140px;
 	height:120px;
 	margin-top: 10%;
 }
@@ -124,7 +128,7 @@ h4
 		box-shadow: 5px 5px 10px   #999;
 		overflow: hidden;
 		-property: box-shadow;
-		transition-duration:1s;	
+		transition-duration:1s;
 	}
 
 	.caja:hover
@@ -145,9 +149,9 @@ h4
 
 
 		.paginacion
-	{ 
-		
-	   
+	{
+
+
 	   width: 500px;
 	   margin-left: 35%;
 
@@ -159,7 +163,7 @@ h4
 
 	.paginacion a
 	{
-		text-decoration: none;	
+		text-decoration: none;
 		color:#FA7E0A;
 		padding: 3%;
 	}
@@ -169,13 +173,13 @@ h4
 	}
 
 	.indice
-	{   
-        
-		
+	{
+
+
 		font-size: 25px;
 		margin:0.5%;
 		transition-property:background-color,color;
-		transition-duration:1s;	
+		transition-duration:1s;
 	}
 
 	.indice:active
@@ -186,11 +190,11 @@ h4
 	}
 
 	.activo
-	{  
-		
+	{
+
 		font-size: 25px;
 		color:  white !important;
 		background-color: #FA7E0A;
-		
+
 
 	}
