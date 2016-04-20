@@ -237,7 +237,10 @@
 
       <div class="col s12  l4" id="visitas">
         <h2> Visitas </h2>
-        {{ visitas }}
+        <div ng-repeat="visita in visitas">
+            <img ng-src="{{ visita }}">
+          
+        </div>
 
       </div>
     </div>

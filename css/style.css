@@ -114,6 +114,17 @@ h4
 }
 
 
+#visitas img 
+{
+	height: 90px;
+	float: left;
+	
+}
+
+#nosotros h4 {color: black !important; }
+
+
+
 	.caja
 	{
 		float: left;
