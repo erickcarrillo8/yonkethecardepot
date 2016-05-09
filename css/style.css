@@ -1,211 +1,52 @@
 
-nav
-{
-	background-color: white;
-	height: 108px;
+nav{ 	background-color: white; 	height: 108px;}
+nav a{	color:  black !important;}
+nav li{   margin-top:40px;}
 
-}
+footer{	background-color: #FF4400 !important;}
 
-nav a
-{
-	color:  black !important;
+ li img{   max-width: 1400px;   height: auto;}
 
-}
+.iconosmenu img{	top:5px;	position: absolute;	margin-left: 1%;}
+.parallax-container h1 { font-size: 5em; color: white; }
 
-nav li
-{
-   margin-top:40px;
-}
+h4{	color: white !important;}
 
+ a:hover{	background: #FA7E0A !important;}
 
+.slides img{   max-width: 100%;}
+.slides li{	max-width: 100%;}
 
-footer
-{
-	background-color: #FF4400 !important;
-}
+#nuevoautos img{	float: left;	margin-right: 5%;}
+#nuevoautos a{	color: black;}
 
- li img
-{
-   max-width: 1400px;
+.btn{	background-color: #FA7E0A;}
 
-   height: auto;
-}
+#menu2{	background-color: #FA7E0A;	color: white;}
 
-.iconosmenu img
-{
-	top:5px;
-	position: absolute;
-	margin-left: 1%;
-}
+#main1{	background-color: #FA7E0A;	height: 140px;	position: static;	width: 100%;	padding: 18px;	float: left;}
+#main1 img, h3{	float: left;}
+#main1 h3{	color: white;}
 
-h4
-{
-	color: white !important;
-}
+#menu2 img{	width:140px;  height:120px;	margin-top: 10%;}
 
- a:hover
-{
-	background: #FA7E0A !important;
-}
-
-.slides img
-{
-   max-width: 100%;
-}
-
-.slides li
-{
-	max-width: 100%;
-}
-
-#nuevoautos img
-{
-	float: left;
-	margin-right: 5%;
-}
-
-#nuevoautos a
-{
-	color: black;
-}
-
-
-
-.btn
-{
-	background-color: #FA7E0A;
-}
-
-#menu2
-{
-	background-color: #FA7E0A;
-	color: white;
-}
-
-#main1
-{
-	background-color: #FA7E0A;
-	height: 140px;
-	position: static;
-	width: 100%;
-	padding: 18px;
-	float: left;
-
-
-}
-
-#main1 img, h3
-{
-	float: left;
-}
-
-#main1 h3
-{
-	color: white;
-
-}
-
-
-#menu2 img
-{
-	width:140px;
-	height:120px;
-	margin-top: 10%;
-}
-
-
-#visitas img 
-{
-	height: 90px;
-	float: left;
-	
-}
+#visitas img {	height: 90px;	float: left;	}
 
 #nosotros h4 {color: black !important; }
 
+.caja	{	float: left;padding: 3%;max-width: 250px;	height: 450px;	border-color: #FF4400;	border-style: solid;border-width: 1px;	border-radius: 2px;
+		margin: 2%;	box-shadow: 5px 5px 10px   #999;	overflow: hidden; -property: box-shadow;	transition-duration:1s;	}
+.caja:hover{    box-shadow: 10px 10px 20px #999;}
+.caja img	{	display: block;	width: 100%;}
+.caja h1{font-size: 25px;	}
 
+.paginacion	{  width: 500px;  margin-left: 35%;	}
+.paginacion a	{text-decoration: none;	color:#FA7E0A;padding: 3%;}
+.paginacion a:hover	{color: white;}
 
-	.caja
-	{
-		float: left;
-		padding: 3%;
-		max-width: 250px;
-		height: 450px;
-		border-color: #FF4400;
-		border-style: solid;
-		border-width: 1px;
-		border-radius: 2px;
-		margin: 2%;
-		box-shadow: 5px 5px 10px   #999;
-		overflow: hidden;
-		-property: box-shadow;
-		transition-duration:1s;
-	}
+.indice	{font-size: 25px;margin:0.5%;transition-property:background-color,color;transition-duration:1s;	}
+.indice:active{ color:  white !important;background-color: #FA7E0A;	}
 
-	.caja:hover
-	{
-       box-shadow: 10px 10px 20px #999;
-	}
+.activo	{font-size: 25px;color:  white !important;background-color: #FA7E0A;}
 
-	.caja img
-	{
-		display: block;
-		width: 100%;
-	}
-
-	.caja h1
-	{
-		font-size: 25px;
-	}
-
-
-		.paginacion
-	{
-
-
-	   width: 500px;
-	   margin-left: 35%;
-
-
-
-
-
-	}
-
-	.paginacion a
-	{
-		text-decoration: none;
-		color:#FA7E0A;
-		padding: 3%;
-	}
-	.paginacion a:hover
-	{
-		color: white;
-	}
-
-	.indice
-	{
-
-
-		font-size: 25px;
-		margin:0.5%;
-		transition-property:background-color,color;
-		transition-duration:1s;
-	}
-
-	.indice:active
-	{
-        color:  white !important;
-		background-color: #FA7E0A;
-
-	}
-
-	.activo
-	{
-
-		font-size: 25px;
-		color:  white !important;
-		background-color: #FA7E0A;
-
-
-	}
+.caja {border-color: #FF4400;border-style: solid; border-width: 1px;}

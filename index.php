@@ -2,14 +2,13 @@
 <html ng-app="AppYonke">
     <head>
         <meta charset="UTF-8" />
-        <title></title>
+        <title>Yonke The Car Depot | Ventas de autopartes en Tijuana , México.</title>
         <meta name="application-name" content="yonkethecardepot.com" />
         <meta name="author" content="Grupo Sab sam" />
         <meta name="distributor" content="" />
         <meta name="robots" content="All" />
-        <meta name="description" content="Yonke the Car Depot - Venta de Autopartes en Tijuana, Especializados en auto  partes Japonesas, Honda, Nissan, Motor Transmision. Tenemos lo que busca para su carro."/>
+        <meta name="description" content="Yonke en tijuana | Venta de Autopartes usadas espcialistas en partes Japonesas, tenemos lo que buscas para tu auto, HONDA, NISSAN,"/>
         <meta name="keywords" content="motor, transmision, diferencial , llantas, refaccion, honda, ford, chevrolet, mitsubishi, bmw, lincoln, gmc, baleros, frenos, focos, " />
-        <meta name="generator" content="META Tag Generator: http://toolswebtop.com/seo/metatag" />
         <meta name="rating" content="General" />
         <meta name="dcterms.title" content="Yonke The Car Depot | Venta de Autopartes Usadas, Tijuana, México" />
         <meta name="dcterms.contributor" content="Grupo Sab sam" />
@@ -30,42 +29,19 @@
         
 
       
-            <link rel="stylesheet" type="text/css" href="css/materialize.css  ">
-            <link rel="stylesheet" type="text/css" href="css/style.css">
-           
-            <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-             <!--Import Google Icon Font-->
-            <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/materialize.css  ">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+
+             
+       <?php include_once("includes/menu.html"); ?>
+
        
-             <link rel="icon" type="image/x-icon" href="favicon.ico" />
-             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-             <script type="text/javascript" src="js/materialize.min.js"></script>
-             <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-             <script src="js/app.js"></script>
-
-
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo"><img src="images/logo3.png" alt="Yonke The Car Depot"></a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down iconosmenu">
-            <li><img src="iconos/menu/inicio.png" alt="Yonke"><a id="inicio"href="home">Inicio</a></li>
-            <li><img src="iconos/menu/acercade.png" alt="Acerca de"><a href="nosotros">Nosotros</a></li>
-            <li><img src="iconos/menu/servicios.png" alt="Servicios"><a href="servicios">Servicios</a></li>
-            <li><img src="iconos/menu/inventario.png" alt="Autos"><a href="inventario">Autos</a></li>
-            <li><img src="iconos/menu/garantia.png" alt="Garantia"><a href="garantias">Garantías</a></li>
-            <li><img src="iconos/menu/contacto.png" alt="Conacto"><a href="contacto">Contacto</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="home">Inicio</a></li>
-            <li><a href="nosotros">Nosotros</a></li>
-            <li><a href="servicios">Servicios</a></li>
-            <li><a href="inventario">Autos</a></li>
-            <li><a href="garantias">Garantías</a></li>
-            <li><a href="contacto">Contacto</a></li>
-          </ul>
-        </div>
-    </nav>
               
     </head>
     <body ng-controller="homeController">
@@ -180,7 +156,7 @@
 
  
  <div class="parallax-container">
-    <!--<h1>Busca la Auto Parte que necesitas</h1>-->
+    <h1>El mejor Yonke en Tijuana</h1>
     <div class="parallax"><img src="images/portada.jpg" alt=""></div>
   </div>
 
@@ -286,28 +262,36 @@
           </div>
         </footer>
 
-        <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5&appId=864324486997127";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<script type="text/javascript">
-    //Inicialización Menu
-        $(".button-collapse").sideNav();
-</script>
-
-
-<script type="text/javascript">
-    $(document).ready(function(){
-    $('.slider').slider({full_width: true});
-    $('.parallax').parallax();
-  });
 
     
-        
-  </script>
+
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5&appId=864324486997127";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+      <script src="js/app.js"></script>
+
+      <script type="text/javascript">
+      //Inicialización Menu
+      $(".button-collapse").sideNav();
+      </script>
+
+
+      <script type="text/javascript">
+      $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+      $('.parallax').parallax();
+      });
+
+
+
+      </script>
 </html>

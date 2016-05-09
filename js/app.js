@@ -2,7 +2,7 @@ var app = angular.module("AppYonke",[]);
 
 	app.controller("homeController", function($scope,$http){
 		$scope.nuevosautos = [];
-		$http.get("http://localhost/yonkethecardepot/api/nuevosautos.php")
+		$http.get("http://www.yonkethecardepot.com/api/nuevosautos.php")
 		.success(function(data){
 			console.log(data);
 			$scope.nuevosautos = data;
@@ -10,7 +10,7 @@ var app = angular.module("AppYonke",[]);
 			.error(function(err){
 		});
 
-		$http.get("http://localhost/yonkethecardepot/api/visitas.php")
+		$http.get("http://www.yonkethecardepot.com/api/visitas.php")
 			.success(function(data){
 				console.log(data);
 				$scope.visitas = data; 
@@ -27,7 +27,7 @@ var app = angular.module("AppYonke",[]);
 
 	app.controller("servicioController", function($scope,$http){
 		$scope.servicios = [];
-		$http.get('http://localhost/yonkethecardepot/api/servicios.php')
+		$http.get('http://www.yonkethecardepot.com/api/servicios.php')
 		.success(function(data){
 			console.log(data);
 			$scope.servicios = data;
@@ -40,7 +40,7 @@ var app = angular.module("AppYonke",[]);
 
 	app.controller("garantiaController", function($scope,$http){
 		$scope.garantias = [];
-		$http.get('http://localhost/yonkethecardepot/api/garantias.php')
+		$http.get('http://www.yonkethecardepot.com/api/garantias.php')
 		.success(function(data){
 			console.log(data);
 			$scope.garantias = data;
@@ -48,4 +48,17 @@ var app = angular.module("AppYonke",[]);
 			.error(function(err){
 			});
 
+	});
+
+	app.controller("inventarioController", function($scope,$http){
+		$scope.autos = [];
+		$http.get('http://www.yonkethecardepot.com/api/autos.php')
+		.success(function(data){
+			console.log(data);
+			$scope.autos = data;
+
+		})
+			.error(function(err){
+
+			});
 	});

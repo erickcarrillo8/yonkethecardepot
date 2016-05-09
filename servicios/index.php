@@ -2,12 +2,12 @@
 <html ng-app="AppYonke">
     <head>
         <meta charset="UTF-8" />
-        <title></title>
+        <title>Yonke The Car Depot | Servicios</title>
         <meta name="application-name" content="yonkethecardepot.com" />
         <meta name="author" content="Grupo Sab sam" />
         <meta name="distributor" content="" />
         <meta name="robots" content="All" />
-        <meta name="description" content="Yonke the Car Depot - Venta de Autopartes en Tijuana, Especializados en auto  partes Japonesas, Honda, Nissan, Motor Transmision. Tenemos lo que busca para su carro."/>
+        <meta name="description" content="Yonke en tijuana, Conoce los servicios que The Car Depot te ofrece."/>
         <meta name="keywords" content="motor, transmision, diferencial , llantas, refaccion, honda, ford, chevrolet, mitsubishi, bmw, lincoln, gmc, baleros, frenos, focos, " />
         <meta name="generator" content="META Tag Generator: http://toolswebtop.com/seo/metatag" />
         <meta name="rating" content="General" />
@@ -44,28 +44,7 @@
              <script src="../js/app.js"></script>
 
 
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo"><img src="../images/logo3.png" alt="Yonke The Car Depot"></a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down iconosmenu">
-            <li><img src="../iconos/menu/inicio.png" alt="Yonke"><a id="inicio"href="home">Inicio</a></li>
-            <li><img src="../iconos/menu/acercade.png" alt="Acerca de"><a href="nosotros">Nosotros</a></li>
-            <li><img src="../iconos/menu/servicios.png" alt="Servicios"><a href="servicios">Servicios</a></li>
-            <li><img src="../iconos/menu/inventario.png" alt="Autos"><a href="inventario">Autos</a></li>
-            <li><img src="../iconos/menu/garantia.png" alt="Garantia"><a href="garantias">Garantías</a></li>
-            <li><img src="../iconos/menu/contacto.png" alt="Conacto"><a href="contacto">Contacto</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="home">Inicio</a></li>
-            <li><a href="nosotros">Nosotros</a></li>
-            <li><a href="servicios">Servicios</a></li>
-            <li><a href="inventario">Autos</a></li>
-            <li><a href="garantias">Garantías</a></li>
-            <li><a href="contacto">Contacto</a></li>
-          </ul>
-        </div>
-    </nav>
+      <?php include_once("../includes/menu.html"); ?>
               
     </head>
 

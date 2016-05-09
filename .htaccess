@@ -1,0 +1,32 @@
+# Activar RewriteEngine
+#RewriteEngine on
+ 
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  clientes/NOMBRE/
+#   Salida: clientes.php?id=NOMBRE
+#RewriteRule ^clientes/(\w+)/?$ clientes.php?id=$1
+
+
+# Activar RewriteEngine
+RewriteEngine on
+ 
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  autos/ID/
+#   Salida: DETALLE.php?autos=ID
+#RewriteRule ^autos/(\w+)/?$ detalle.php?autos=$1
+
+RewriteRule ^(\w+)/([\w]+)/([\w]+)/(\w+)/?$      detalle.php?autos=$1&marca=$2&modelo=$3&año=$4
+
+
+#RewriteRule ^/([a-z]+)/([a-z]+)/([a-z]+)/$ /detalle.php?autos=$1&marca=$3&modelo=$3 [L]
+
+	
+#RewriteEngine On RewriteBase / RewriteCond %{HTTP_HOST} ^yonkethecardepot.com [NC] 
+#RewriteRule ^(.*)$ 
+#http://www.yonkethecardepot/$1 [L,R=301] 
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^yonkethecardepot.com
+RewriteRule ^ http://www.yonkethecardepot.com%{REQUEST_URI} [L,R=301]
+
+ 
